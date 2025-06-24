@@ -19,6 +19,16 @@ A sleek, modern, and user-friendly desktop application for Windows to schedule y
 
 ---
 
+## Quick Start for Windows (Easy)
+
+For the easiest way to use this application on Windows, simply download the executable from the `/dist` folder. No installation of Python or other dependencies is required.
+
+1.  Navigate to the `dist` folder.
+2.  Download `sleep_scheduler.exe`.
+3.  Double-click the file to run the application.
+
+---
+
 ## Requirements
 
 *   Python 3.6+
@@ -27,6 +37,8 @@ A sleek, modern, and user-friendly desktop application for Windows to schedule y
 ---
 
 ## Installation
+
+The following instructions are for users who want to run the application from the Python source code.
 
 1.  **Clone or download the repository:**
     If this were a git repository, you would clone it. For now, just make sure you have the `sleep_scheduler.py` file.
