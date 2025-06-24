@@ -4,7 +4,6 @@ A sleek, modern, and user-friendly desktop application for Windows to schedule y
 
 ![App Screenshot](sleep_scheduler.JPG "Application Interface")
 
-
 ---
 
 ## Features
@@ -15,7 +14,7 @@ A sleek, modern, and user-friendly desktop application for Windows to schedule y
 *   **Cancel Functionality**: A prominent cancel button allows you to stop a scheduled action at any time.
 *   **Persistent Settings**: The app remembers the last duration and action you set, making it quicker to use next time.
 *   **Frameless & Draggable**: A clean, borderless window that you can drag from anywhere.
-*   **Cross-Platform**: Runs on other operating systems, though the sleep/hibernate actions are specific to Windows.
+*   **Cross-Platform GUI**: The application runs on Windows, macOS, and Linux. **Note:** The sleep/hibernate actions and the acrylic blur effect are only available on Windows. On other platforms, the GUI will work, but system actions may not function or may require adaptation.
 
 ---
 
@@ -26,6 +25,10 @@ For the easiest way to use this application on Windows, simply download the exec
 1.  Navigate to the `dist` folder.
 2.  Download `sleep_scheduler.exe`.
 3.  Double-click the file to run the application.
+
+> **Security Notice:**  
+> When running any executable file downloaded from the internet—especially those developed by solo or independent developers—Windows may warn you that the file is from an unknown publisher. This is normal for most open-source or hobbyist projects.  
+> **Run at your own risk:** If you trust the source, you can choose "Run anyway" when prompted. This is a standard experience for many indie or open-source apps.
 
 ---
 
@@ -40,10 +43,10 @@ For the easiest way to use this application on Windows, simply download the exec
 
 The following instructions are for users who want to run the application from the Python source code.
 
-1.  **Clone or download the repository:**
+1.  **Clone or download the repository:**  
     If this were a git repository, you would clone it. For now, just make sure you have the `sleep_scheduler.py` file.
 
-2.  **Create a virtual environment (recommended):**
+2.  **Create a virtual environment (recommended):**  
     Open a terminal or command prompt in the project directory and run:
     ```bash
     python -m venv .venv
@@ -58,7 +61,7 @@ The following instructions are for users who want to run the application from th
         source .venv/bin/activate
         ```
 
-3.  **Install the required package:**
+3.  **Install the required package:**  
     With your virtual environment active, install PyQt5:
     ```bash
     pip install PyQt5
