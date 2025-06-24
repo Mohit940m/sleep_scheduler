@@ -14,6 +14,18 @@ from PyQt5.QtWidgets import (
     QPushButton, QRadioButton, QMessageBox, QFrame
 )
 
+# This block is specifically for Windows taskbar icon issue
+if sys.platform == 'win32':
+    import ctypes
+    # Arbitrary string: Use a unique identifier for your application.
+    # Reverse DNS format is common, e.g., 'com.yourcompany.yourapp.version'
+    myappid = 'com.mycompany.sleepscheduler.v1_0'
+    try:
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+    except AttributeError:
+        # Handle cases where SetCurrentProcessExplicitAppUserModelID might not be available
+        pass
+
 # --- Windows Acrylic Blur Helper ---
 def enable_blur_behind_win(window):
     """
