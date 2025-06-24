@@ -14,7 +14,7 @@ A sleek, modern, and user-friendly desktop application for Windows to schedule y
 *   **Cancel Functionality**: A prominent cancel button allows you to stop a scheduled action at any time.
 *   **Persistent Settings**: The app remembers the last duration and action you set, making it quicker to use next time.
 *   **Frameless & Draggable**: A clean, borderless window that you can drag from anywhere.
-*   **Cross-Platform GUI**: The application runs on Windows, macOS, and Linux. **Note:** The sleep/hibernate actions and the acrylic blur effect are only available on Windows. On other platforms, the GUI will work, but system actions may not function or may require adaptation.
+*   **Cross-Platform GUI**: The application runs on Windows.
 
 ---
 
